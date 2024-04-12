@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap');
+
+ 
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.bannerMain{
+    height: 200px;
+    width: 100%;
+    background-image: url('/images/blog_title_bg.jpg');
+}
+.banWoImg{
+    width: 243px;
+}
+.collImgOne{
+height: 300px;
+width: 350px;
+background-image:url('/images/women.jpg') ;
+background-size: cover;
+ }
+ .collImgTwo{
+    height: 150px;
+    width: 400px;
+    background-image:url('/images/banner_2.jpg') ;
+    background-size: cover;
+ }
+ .collImgThree{
+    margin-top: 5px;
+    height: 146px;
+    width: 200px;
+    background-image:url('/images/collection_grid_3.jpg') ;
+    background-size: cover;
+ }
+ .collImgfour{
+    margin-top: 5px;
+    height: 146px;
+    width: 200px;
+    background-image:url('/images/blog-1.jpg') ;
+    background-size: cover;
+    margin-left: 3px;
+ }
+ .cardWarp{
+    height: 220px;
+    width: 200px;
+    border: 1px solid black;
+    background-size: cover;
+ }
+
+ /* form styles */
+ .formBg {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/formBg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formWarpMain {
+    height: 60vh;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(0 0 0 / 43%);
+  }
+  
+  .formInpt {
+    width: 359px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 2px;
+    color: white;
+  }
+  .formInpt:focus-visible,
+  .formInpt:focus {
+    outline: none;
+    /* border-color: transparent; */
+  }
+  .formSubmit {
+    background: white;
+    border: none;
+    width: 100%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 7px;
+  }
+  .inptDiv{
+    position: relative;
+  }
+  .label{
+    position: absolute;
+     left: 14px;
+    top: 11px;
+    transition: 0.3s;
+  }
+  
+  .formInpt:focus + .label {
+    transform: translateY(-22px);
+    background-color: white;
+    padding-right: 6px;
+    padding-left: 6px;
+    color: black!important;
+    font-size: 12px;
+  }
+  
+   .formInpt:focus + .label,
+  .formInpt:not(:placeholder-shown) + .label {
+    transform: translateY(-22px);
+    background-color: white;
+    padding-right: 6px;
+    padding-left: 6px;
+    color: black!important;
+    font-size: 12px;
+  }
